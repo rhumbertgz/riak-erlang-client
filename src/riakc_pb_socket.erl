@@ -27,12 +27,12 @@
 
 -module(riakc_pb_socket).
 -include_lib("kernel/include/inet.hrl").
--include_lib("riak_pb/include/riak.hrl").
--include_lib("riak_pb/include/riak_kv.hrl").
+-include_lib("riak_pb/include/riak_pb.hrl").
+-include_lib("riak_pb/include/riak_kv_pb.hrl").
+-include_lib("riak_pb/include/riak_search_pb.hrl").
+-include_lib("riak_pb/include/riak_yokozuna_pb.hrl").
+-include_lib("riak_pb/include/riak_dt_pb.hrl").
 -include_lib("riak_pb/include/riak_pb_kv_codec.hrl").
--include_lib("riak_pb/include/riak_search.hrl").
--include_lib("riak_pb/include/riak_yokozuna.hrl").
--include_lib("riak_pb/include/riak_dt.hrl").
 -include("riakc.hrl").
 -behaviour(gen_server).
 
